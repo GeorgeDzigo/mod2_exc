@@ -1,0 +1,81 @@
+/* GENERAL CODE */
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+            font-family:Georgia, 'Times New Roman', Times, serif ;    
+      }
+/* END GENERAL CODE */
+
+/* HEADER */
+      .header{    
+            width:100%;
+            height: 20%;     
+      }
+      /* HEADER H1 */
+            .header-h1 {
+                  text-align:center;
+                  margin-top:2%;
+            }
+      /* END HEADER H1 */
+/* END HEADER */
+
+/* BOX */
+      .container {
+            margin-top: 40px;
+      }
+      .box {
+            width: 31%;
+            height:24%;
+            border: 1px solid black;
+            margin: 10px;
+            background-color:lightgray;
+            display: inline-block;
+      }
+      /* BOX H3 */     
+            .box-h3 {
+                  padding: 10px 25px 10px 25px;   
+            } 
+            .b1 {
+                  float:right; 
+                  background-color:lightpink;
+                  border-bottom: 1px solid black;
+                  border-left: 1px solid black;
+            }
+            .b2 {
+                  float:right; 
+                  background-color:crimson;
+                  border-bottom: 1px solid black;
+                  border-left: 1px solid black;
+            }
+            .b3 {
+                  float:right;  
+                  background-color:goldenrod;
+                  border-bottom: 1px solid black;
+                  border-left: 1px solid black;
+            }
+
+      /* END BOX H3 */
+      
+      /* BOX P */
+            .box-p {
+                  clear:both;
+                  text-align: center;
+                  padding: 10px;
+            }
+      /* END BOX P */
+/* END BOXES */
+
+/* RESPONSIVE */
+      @media only screen and (min-width:768px) and (max-width: 991px) {
+            .box:nth-child(3) {
+                  width: 65%;
+            }
+      }
+      @media only screen and (max-width: 767px) {
+            .box {
+                  display: block;
+                  width: 70%;
+            }
+      }
+/* END RESPONSIVE */
